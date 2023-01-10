@@ -1,4 +1,4 @@
-#instruções
+# instruções
 
 Após Baixar o arquivo, na pasta server faça o seguinte:
 
