@@ -10,5 +10,5 @@ ou
 ### npx nodemon index
 > No navegdor digite o seguinte para visualizar o servidor funcionado:
 Acesse:
-### http: http://localhost:3000/
+### http://localhost:3000/
 Lá dever contem a mensagem servidor funcionando, agora você pode dar run na aplicação web, vá até a pasta web e pegue as instruções.
