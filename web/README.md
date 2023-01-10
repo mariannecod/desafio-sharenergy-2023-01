@@ -10,5 +10,7 @@ Após Baixar o arquivo, na pasta web faça o seguinte:
 ### http://localhost:5173/
 
 Prontinho a aplicação está funcionando.
-\n 
+
+
+
 p.s. não esqueça de ligar o servidor na pasta server, é só segui as instruções por lá.
