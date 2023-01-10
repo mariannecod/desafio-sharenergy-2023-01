@@ -1,0 +1,106 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+    
+
+    /*
+    https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png LIGHT
+    https://cdn.pixabay.com/photo/2016/10/29/01/30/abstract-1779589_960_720.png LIGHT
+    https://cdn.pixabay.com/photo/2021/01/05/06/41/mountains-5889920_960_720.png NIGHT
+    https://cdn.pixabay.com/photo/2021/07/20/03/39/fisherman-6479663_960_720.jpg NIGHT
+  */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+}
+
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://cdn.pixabay.com/photo/2021/01/05/06/41/mountains-5889920_960_720.png") no-repeat fixed center , linear-gradient(45deg, #173f1f 0%, #1c5226 100%);
+  background-size: cover;
+}
+
+
+#frame-login 
+{
+  width: 270px;
+  height: 300px;
+  border-radius:10px;
+  background-color: black;
+  color:white;
+}
+
+#frame-login p
+{
+  font-size:30px;
+  font-weight:bold;
+}
+
+#frame-login input
+{
+  height:30px;
+}
+
+#frame-login input:nth-child(1)
+{
+  margin-top:5px;
+}
+
+#frame-login input:nth-child(2)
+{
+  margin-top:1px;
+  margin-bottom:10px;
+}
+
+#frame-login button
+{
+  width:200px;
+  margin-top:10px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+#btn-remember
+{
+  padding:5px;
+  text-align:center;
+}
+
+/* light mode */
+
+@media (prefers-color-scheme: light) 
+{
+  :root
+  {
+    color: #213547;
+    
+  }
+  
+  .body {
+  background:  url("https://cdn.pixabay.com/photo/2016/10/29/01/30/abstract-1779589_960_720.png") no-repeat fixed center , linear-gradient(45deg, #1e538f 0%, #1b95e7 100%);
+    background-size: cover;
+  }
+  
+  #frame-login 
+{
+  background-color: white;
+  color:black;
+}
+  
+}
